@@ -1,0 +1,22 @@
+
+@import "/styles/base.css";
+
+:root {
+    --main-color: #0080FF;
+    --second-color: #004C99;
+
+    --title-color: var(--second-color);
+    --focus-color: #FF8000;
+    --notfocus-color: gray;
+    --shadow: gray;
+
+    --border-radius: 15px;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: min(20px, 10vh) min(40px, 10vw);
+    text-align: center;
+}
+

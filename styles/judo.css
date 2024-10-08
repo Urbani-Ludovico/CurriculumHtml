@@ -1,0 +1,9 @@
+
+@import "std.css";
+
+:root {
+    --main-color: #0080FF;
+    --second-color: #004C99;
+
+    --title-color: var(--second-color);
+}
